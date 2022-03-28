@@ -1,0 +1,20 @@
+# Szpitale
+1 | Szpital Wojewódzki nr 997 | 0 | 3 | 1000 | 100
+2 | Krakowski Szpital Kliniczny | 1 | 1 | 999 | 99
+3 | Pierwszy Szpital im. Prezesa RP | 2 | 2 | 99 | 0
+4 | Drugi Szpital im. Naczelnika RP | 4 | 4 | 70 | 1
+5 | Trzeci Szpital im. Króla RP | 0 | 0 | 996 | 0
+
+# Obiekty
+1 | Pomnik Wikipedii | 1 | 2
+2 | Pomnik Fryderyka Chopina | 3 | 1
+3 | Pomnik Anonimowego Przechodnia | 3 | 3
+
+# Drogi
+1 | 1 | 2 | 700
+2 | 1 | 4 | 550
+3 | 1 | 5 | 800
+4 | 2 | 3 | 300
+5 | 2 | 4 | 550
+6 | 3 | 5 | 600
+7 | 4 | 5 | 750

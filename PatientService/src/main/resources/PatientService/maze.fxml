@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.geometry.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+<?import javafx.scene.text.*?>
+
+<AnchorPane prefHeight="600.0" prefWidth="800.0" style="-fx-background-color: #666666;" xmlns="http://javafx.com/javafx/11.0.1" xmlns:fx="http://javafx.com/fxml/1">
+   <children>
+      <VBox prefHeight="200.0" prefWidth="100.0" spacing="20.0" AnchorPane.bottomAnchor="25.0" AnchorPane.leftAnchor="25.0" AnchorPane.rightAnchor="25.0" AnchorPane.topAnchor="0.0">
+         <children>
+            <HBox prefHeight="41.0" prefWidth="600.0" spacing="40.0">
+               <children>
+                  <Label text="Time: 00:00 " textFill="#e39827">
+                     <font>
+                        <Font name="System Bold" size="14.0" />
+                     </font>
+                  </Label>
+                  <Label text="Level: level" textFill="#e39827">
+                     <font>
+                        <Font name="System Bold" size="14.0" />
+                     </font>
+                  </Label>
+                  <Label text="Nazwa_użytkownika" textFill="#e39827">
+                     <font>
+                        <Font name="System Bold" size="14.0" />
+                     </font>
+                  </Label>
+                  <Label layoutX="244.0" layoutY="25.0" text="Best time: 00:00" textFill="#e39827">
+                     <font>
+                        <Font name="System Bold" size="14.0" />
+                     </font>
+                  </Label>
+               </children>
+               <padding>
+                  <Insets right="20.0" top="15.0" />
+               </padding>
+            </HBox>
+            <Region prefHeight="43.0" prefWidth="740.0" style="-fx-background-color: #ffff;" />
+            <HBox prefHeight="241.0" prefWidth="750.0">
+               <children>
+                  <VBox prefHeight="200.0" prefWidth="100.0">
+                     <children>
+                        <Label text="Label" />
+                     </children>
+                  </VBox>
+                  <VBox prefHeight="200.0" prefWidth="100.0" />
+                  <ScrollBar orientation="VERTICAL" />
+                  <TableView prefHeight="200.0" prefWidth="200.0">
+                    <columns>
+                      <TableColumn prefWidth="98.0" text="C2" />
+                      <TableColumn minWidth="0.0" prefWidth="52.0" text="C1" />
+                    </columns>
+                  </TableView>
+               </children>
+            </HBox>
+            <AnchorPane prefHeight="200.0" prefWidth="200.0" />
+         </children>
+      </VBox>
+   </children>
+</AnchorPane>
